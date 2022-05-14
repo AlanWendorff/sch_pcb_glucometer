@@ -2097,7 +2097,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "${KISYS3DMOD}/Package_TO_SOT_SMD.3dshapes/SOT-23.wrl"
+    (model "${KISYS3DMOD}/Package_TO_SOT_SMD.3dshapes/SOT-23.wrl" hide
       (offset (xyz 6 -27.5 4))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 -180))
@@ -2174,6 +2174,11 @@
     )
     (model "${KISYS3DMOD}/RF_Module.3dshapes/ESP32-WROOM-32.wrl"
       (offset (xyz 0 -10 4))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model "${KICAD6_3DMODEL_DIR}/esp32_devkit_v1_doit.3dshapes/ESP-WROOM32.STEP"
+      (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
